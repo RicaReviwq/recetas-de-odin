@@ -1,56 +1,83 @@
 body{
-    background: rgb(248, 106, 106);
+    background: url(imagenes/fondo2.jpg);
+    background-position: center center;
 }
 
 #titulo{
-    font-size: 50px;
+    font-size: 50px;    
+    font-weight: 1000;
+    border: 5px solid blue;
+    padding: 10px;
+    width: 750px;
+    margin-left: 280px;
+    background-color: rgb(202, 177, 63);
     text-align: center;
-    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .img{
     width: 40%;
     height: 400px;
+    border: 10px solid black;
 }
 
-.subtitulo-1{
+.subtitulos{
     text-align: center;
     font-size: 40px;
-}
-
-.subtitulo-2{
+    border: 5px solid rgb(0, 119, 119);
+    padding: 10px;
+    width: 300px;
+    margin-left: 500px;
+    background-color: rgb(202, 177, 63);
     text-align: center;
-    font-size: 40px;
-}
-
-.subtitulo-3{
-    text-align: center;
-    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .descripcion{
     text-align: center;
-    font-size: 30px;
-    font-weight: 300;
+    border: 5px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blueviolet;
+    color:wheat;
+    font-size: 35px;
+    font-weight: 800;
+    width: 500px;
+    margin-left: 400px;
 }
 
 .lista-1{
     font-size: 25px;
     text-align: center;
     list-style: none;    
+    border: 5px solid black;
+    width: 310px;
+    margin-left: 500px;
+    background-color: coral;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
 }
 
 .lista-2{
     font-size: 20px;
+    border: 5px solid black;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .links{
     text-align: center;
     list-style: none;
-    font-size: 30px;
+    font-size: 30px;  
+    width: 350px;
+    padding: 5px;
+    margin-left: 500px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 
 .link{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
+    margin-left: 530px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
