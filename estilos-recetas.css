@@ -13,7 +13,17 @@ body{
     height: 400px;
 }
 
-.subtitulo{
+.subtitulo-1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.subtitulo-2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.subtitulo-3{
     text-align: center;
     font-size: 40px;
 }
@@ -24,8 +34,23 @@ body{
     font-weight: 300;
 }
 
-.lista{
+.lista-1{
+    font-size: 25px;
+    text-align: center;
+    list-style: none;    
+}
+
+.lista-2{
+    font-size: 20px;
+}
+
+.links{
     text-align: center;
     list-style: none;
+    font-size: 30px;
+}
+
+.link{
+    text-align: center;
     font-size: 30px;
 }
